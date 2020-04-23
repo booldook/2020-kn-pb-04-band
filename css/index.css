@@ -1,11 +1,21 @@
+/* Normalize */
 html, body {margin: 0; padding: 0;}
-
+body {height: 10000px;}
+/* 공통사항 */
 .clearfix {clear: both;}
 
+/* .header */
 .header {background-color: black; color: white;}
 .nav-wrap {float: left;}
 .nav-wrap > div {float: left; padding: 14px 18px;}
 .nav-wrap > div:hover {cursor: pointer; background-color: #ccc; color: #111;}
 .sch-wrap {float: right;}
 .sch-wrap:hover {cursor: pointer; background-color: #f20;}
-.sch-wrap > span {padding: 16px 18px;}
+.sch-wrap > div {padding: 16px 18px;}
+
+/* .main-wrap */
+.main-wrap {text-align: center;}
+/* .main-img {width: 1200px;} */
+/* .main-img {max-width: 1400px; width: 100%;} */
+.main-img {width: 100%;}
+.band-wrap {border: 1px solid red; width: 780px;}
