@@ -7,4 +7,5 @@ html, body {margin: 0; padding: 0;}
 .nav-wrap > div {float: left; padding: 14px 18px;}
 .nav-wrap > div:hover {cursor: pointer; background-color: #ccc; color: #111;}
 .sch-wrap {float: right;}
-.sch-wrap > span {padding: 14px 18px;}
+.sch-wrap:hover {cursor: pointer; background-color: #f20;}
+.sch-wrap > span {padding: 16px 18px;}
