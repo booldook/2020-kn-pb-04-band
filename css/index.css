@@ -1,10 +1,10 @@
 html, body {margin: 0; padding: 0;}
+
 .clearfix {clear: both;}
 
-.header {background-color: black;}
-
-.nav-wrap {color: white; float: left;}
-.nav-wrap > div {float: left; padding: 12px 16px;}
-.nav-wrap > div:hover {background-color: grey; cursor: pointer;}
-
-.sch-wrap {background-color: orange; float: right;}
+.header {background-color: black; color: white;}
+.nav-wrap {float: left;}
+.nav-wrap > div {float: left; padding: 14px 18px;}
+.nav-wrap > div:hover {cursor: pointer; background-color: #ccc; color: #111;}
+.sch-wrap {float: right;}
+.sch-wrap > span {padding: 14px 18px;}
