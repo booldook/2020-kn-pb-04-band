@@ -1,21 +1,22 @@
-/* 글꼴불러오기 */
+/********** 글꼴불러오기 **********/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
-/* Normalize */
+/********** Normalize **********/
 html, body {margin: 0; padding: 0;}
 h1, h2, h3, h4, h5, h6, div, p {box-sizing: border-box;}
 body {height: 10000px;}
 
 
-/* 공통사항 */
+/********** 공통사항 **********/
 .clearfix {clear: both;}
 .title {text-align: center; 
 	font-family: 'Nunito', sans-serif; font-weight: 400; letter-spacing: 8px;}
 .slogan {color: #999; text-align: center; font-style: italic;}
 .desc {color: #222; text-align: justify;}
 .img {width: 100%;}
+.wrapper {width: 100%; max-width: 790px; margin: 0 auto; padding: 100px 12px;}
 
-/* .header */
+/********** .header **********/
 .header {background-color: black; color: white;}
 .nav-wrap {float: left;}
 .nav-wrap > div {float: left; padding: 14px 18px;}
@@ -24,14 +25,18 @@ body {height: 10000px;}
 .sch-wrap:hover {cursor: pointer; background-color: #f20;}
 .sch-wrap > div {padding: 16px 18px;}
 
-/* .main-wrap */
+/********** .main-wrap **********/
 .main-wrap {text-align: center;}
 /* .main-img {width: 1200px;} */
 /* .main-img {max-width: 1400px; width: 100%;} */
 .main-img {width: 100%;}
-.band-wrap {width: 100%; max-width: 790px; margin: 0 auto; padding: 100px 12px;}
-.members {}
+
+/********** .band-wrap **********/
 .member {width: 33.3333%; float: left; padding: 40px;}
 .member > .name {text-align: center; padding: 16px;}
 /* .member > .photo > img {} */
 .member img {border-radius: 6px;}
+
+/********** .tour-wrap **********/
+.tour-wrap {background-color: black;}
+.tour-wrap > .wrapper {border: 1px solid yellow; color: white;}
