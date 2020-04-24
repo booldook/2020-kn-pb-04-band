@@ -4,6 +4,7 @@
 /********** Normalize **********/
 html, body {margin: 0; padding: 0;}
 h1, h2, h3, h4, h5, h6, div, p {box-sizing: border-box;}
+img {vertical-align: bottom;}
 body {height: 10000px;}
 
 
@@ -56,3 +57,4 @@ body {height: 10000px;}
 .city {float: left; width: 32%;}
 .city:nth-child(2) {margin: 0 2%;}	
 .city > .conts {background-color: #fff; padding: 16px;}
+.city > .photo > img:hover {opacity: 0.6;}
