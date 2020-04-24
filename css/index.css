@@ -39,4 +39,15 @@ body {height: 10000px;}
 
 /********** .tour-wrap **********/
 .tour-wrap {background-color: black;}
-.tour-wrap > .wrapper {color: white;}
+.tour-wrap .title {color: #fff;}
+.tour-wrap .lists {background-color: #f8f8f8; border: 1px solid #999;}
+/*
+.tour-wrap .list {padding: 12px; border-bottom: 1px solid #999;}
+.tour-wrap .list:last-child {border-bottom: none;}
+*/
+.tour-wrap .list {padding: 12px;}
+.tour-wrap .list:not(:last-child) {border-bottom: 1px solid #999;}
+.badge-soldout {background-color: #f20; color: #fff; padding: 2px 8px; 
+	font-size: 14px; margin-left: 30px;}
+.badge-counter {float: right; background-color: #111; color: #fff; 
+	padding: 2px 8px; border-radius: 50%;}
