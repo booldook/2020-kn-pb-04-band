@@ -39,4 +39,4 @@ body {height: 10000px;}
 
 /********** .tour-wrap **********/
 .tour-wrap {background-color: black;}
-.tour-wrap > .wrapper {border: 1px solid yellow; color: white;}
+.tour-wrap > .wrapper {color: white;}
