@@ -1,3 +1,6 @@
+/* 글꼴불러오기 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
 /* Normalize */
 html, body {margin: 0; padding: 0;}
 h1, h2, h3, h4, h5, h6, div, p {box-sizing: border-box;}
@@ -6,6 +9,10 @@ body {height: 10000px;}
 
 /* 공통사항 */
 .clearfix {clear: both;}
+.title {text-align: center; 
+	font-family: 'Nunito', sans-serif; font-weight: 400; letter-spacing: 8px;}
+.slogan {color: #999; text-align: center; font-style: italic;}
+.desc {color: #222; text-align: justify;}
 
 /* .header */
 .header {background-color: black; color: white;}
@@ -21,4 +28,4 @@ body {height: 10000px;}
 /* .main-img {width: 1200px;} */
 /* .main-img {max-width: 1400px; width: 100%;} */
 .main-img {width: 100%;}
-.band-wrap {border: 10px solid red; width: 100%; max-width: 790px; margin: 0 auto; padding: 100px 12px;}
+.band-wrap {width: 100%; max-width: 790px; margin: 0 auto; padding: 100px 12px;}
