@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
 /********** Normalize **********/
-html, body {margin: 0; padding: 0;}
-h1, h2, h3, h4, h5, h6, div, p {box-sizing: border-box;}
+html, body, h1, h2, h3, h4, h5, h6, div, p {margin: 0; padding: 0; box-sizing: border-box;}
 img {vertical-align: bottom;}
 body {height: 10000px;}
 
@@ -12,7 +11,7 @@ body {height: 10000px;}
 .clearfix {clear: both;}
 .title {text-align: center; 
 	font-family: 'Nunito', sans-serif; font-weight: 400; letter-spacing: 8px;}
-.slogan {color: #999; text-align: center; font-style: italic;}
+.slogan {color: #999; text-align: center; font-style: italic; padding: 24px 0;}
 .desc {color: #222; text-align: justify;}
 .img {width: 100%;}
 .wrapper {width: 100%; max-width: 790px; margin: 0 auto; padding: 100px 12px;}
@@ -58,3 +57,10 @@ body {height: 10000px;}
 .city:nth-child(2) {margin: 0 2%;}	
 .city > .conts {background-color: #fff; padding: 16px;}
 .city > .photo > img:hover {opacity: 0.6;}
+.city > .conts > h3 {padding: 6px 0;}
+.city > .conts > p {padding: 6px 0; color: #999;}
+.city > .conts > .summary {padding: 6px 0;}
+.city > .conts > .bt-buy {padding: 12px; background-color: #111; color: #fff;
+	display: inline-block; margin-top: 12px;}
+.city > .conts > .bt-buy:hover {background-color: #ccc; color: #111; 
+	cursor: pointer;}
