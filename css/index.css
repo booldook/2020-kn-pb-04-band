@@ -51,3 +51,8 @@ body {height: 10000px;}
 	font-size: 14px; margin-left: 30px;}
 .badge-counter {float: right; background-color: #111; color: #fff; 
 	padding: 2px 8px; border-radius: 50%;}
+
+.cities {margin-top: 30px;}
+.city {float: left; width: 32%;}
+.city:nth-child(2) {margin: 0 2%;}	
+.city > .conts {background-color: #fff; padding: 16px;}
