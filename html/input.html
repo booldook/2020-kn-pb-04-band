@@ -14,25 +14,68 @@
 			Form elements를 배워보자
 			<div class="small">Form, Input, Select, Textarea, Button</div>
 		</h1>
-		<div class="lists">
-			<div class="list">
+		<div class="box">
+			<div class="section">
 				<h2>Input elements</h2>
-				<div class="contents">
-					<div class="content clear">
-						<div class="title">Text Input</div>
-						<div class="cont">
-							<input type="text">
+				<div class="lists">
+					<div class="list clear">
+						<div class="title">Input - text</div>
+						<div class="content">
+							<input type="text" class="input" placeholder="아이디를 입력하세요.">
 						</div>
-					</div><!-- content -->
-					<div class="content clear">
-						<div class="title">Password Input</div>
-						<div class="cont">
-							<input type="password">
+					</div><!-- .list -->
+					<div class="list clear">
+						<div class="title">Input - password</div>
+						<div class="content">
+							<input type="password" class="input" placeholder="패스워드를 입력하세요.">
 						</div>
-					</div><!-- content -->
-				</div><!-- contents -->
-			</div><!-- list -->
-		</div><!-- lists -->
-	</div>
+					</div><!-- .list -->
+					<div class="list clear">
+						<div class="title">Input - radio</div>
+						<div class="content">
+							<input type="radio" id="man" name="gender">
+							<label for="man">남자</label>
+							<input type="radio" id="woman" name="gender">
+							<label for="woman">여자</label>
+						</div>
+					</div><!-- .list -->
+					<div class="list clear">
+						<div class="title">Input - checkbox</div>
+						<div class="content">
+							<input type="checkbox" id="hobby1" name="hobby">
+							<label for="hobby1">독서</label>
+							<input type="checkbox" id="hobby2" name="hobby">
+							<label for="hobby2">수영</label>
+							<input type="checkbox" id="hobby3" name="hobby">
+							<label for="hobby3">잠자기</label>
+							<input type="checkbox" id="hobby4" name="hobby">
+							<label for="hobby4">숨쉬기</label>
+							<input type="checkbox" id="hobby5" name="hobby">
+							<label for="hobby5">게임</label>
+						</div>
+					</div><!-- .list -->
+				</div><!-- .lists -->
+			</div><!-- .section -->
+			<div class="section">
+				<h2>Select</h2>
+				<div class="lists">
+					<div class="list clear">
+						<div class="title">Select</div>
+						<div class="content">
+							<select name="tel1" id="tel1" class="input">
+								<option value="" selected>선택하세요</option>
+								<option value="010">010</option>
+								<option value="011">011</option>
+								<option value="016">016</option>
+								<option value="017">017</option>
+								<option value="018">018</option>
+								<option value="019">019</option>
+							</select>
+						</div>
+					</div><!-- .list -->
+				</div><!-- .lists -->
+			</div><!-- .section -->
+		</div><!-- .box -->
+	</div><!-- .wrapper -->
 </body>
 </html>

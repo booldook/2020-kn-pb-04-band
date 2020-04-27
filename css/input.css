@@ -2,9 +2,14 @@
 .title-bar {margin: 12px 0 24px 0; background-color: darkcyan; color: #fff; 
 	padding: 24px; font-size: 36px; border-radius: 8px;}
 .title-bar .small {font-size: 20px; font-weight: normal; color: #ddd;}
-.lists {border: 1px solid #bbb; border-radius: 8px; padding: 24px;}
-.lists h2 {margin-bottom: 16px;}
-.content {border-bottom: 1px solid #ddd; padding: 12px;}
-.content .title {width: 20%; float: left;}
-.content .cont {width: 75%; float: right;}
 
+.box {border: 1px solid #ddd; border-radius: 8px; padding: 24px;}
+
+.section {margin-bottom: 32px;}
+.section h2 {margin-bottom: 16px;}
+
+.list {border-bottom: 1px solid #ddd; padding: 12px;}
+.list .title {width: 20%; float: left;}
+.list .content {width: 80%; float: right;}
+
+.input {padding: 6px; font-size: 16px;}
