@@ -7,6 +7,7 @@ img {vertical-align: bottom;}
 .clear:after {content: ""; display: block; clear: both;}
 .img {width: 100%;}
 .pointer {cursor: pointer;}
+.wrapper {max-width: 790px; margin: 0 auto; padding: 80px 16px;}
 .page-title {text-align: center; font-size: 32px; font-weight: normal; letter-spacing: 6px;}
 .page-slogan {text-align: center; font-size: 16px; color: #999; font-weight: normal; font-style: italic; padding: 24px 0;}
 .page-content {text-align: justify;}
@@ -26,8 +27,16 @@ img {vertical-align: bottom;}
 
 
 /*********** .band-wrap ***********/
-.band-wrap {max-width: 790px; margin: 0 auto; padding: 80px 16px;}
 .band-members {margin-top: 30px;}
 .band-member {float: left; width: 33.3333%; padding: 40px 20px;}
 .band-name {padding: 12px 0; text-align: center;}
 .band-photo > img {border-radius: 8px;}
+
+
+/*********** .tour-wrap ***********/
+.tour-wrap {background-color: black;}
+.tour-wrap .page-title {color: #fff;}
+.tour-wrap .lists {background-color: #ffffff; border: 1px solid #999;}
+.tour-wrap .list {padding: 12px 16px;}
+.tour-wrap .list:not(:last-child) {border-bottom: 1px solid #999;}
+.tour-wrap .soldout {background-color: #f20; color: #fff; padding: 2px 6px; font-size: 14px; margin-left: 20px;}
