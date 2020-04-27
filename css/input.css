@@ -1,0 +1,5 @@
+.wrapper {max-width: 1200px; margin: 0 auto;}
+.title-bar {margin: 12px 0 24px 0; background-color: darkcyan; color: #fff; 
+	padding: 24px; font-size: 36px; border-radius: 8px;}
+.title-bar .small {font-size: 20px; font-weight: normal; color: #ddd;}
+.contents {border: 1px solid #bbb; border-radius: 8px; padding: 24px;}
