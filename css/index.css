@@ -9,6 +9,7 @@ body {height: 10000px;}
 
 /********** 공통사항 **********/
 .clearfix {clear: both;}
+.clear:after {content: ""; display: block; clear: both;}
 .title {text-align: center; 
 	font-family: 'Nunito', sans-serif; font-weight: 400; letter-spacing: 8px;}
 .slogan {color: #999; text-align: center; font-style: italic; padding: 24px 0;}
