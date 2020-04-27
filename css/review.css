@@ -40,3 +40,21 @@ img {vertical-align: bottom;}
 .tour-wrap .list {padding: 12px 16px;}
 .tour-wrap .list:not(:last-child) {border-bottom: 1px solid #999;}
 .tour-wrap .soldout {background-color: #f20; color: #fff; padding: 2px 6px; font-size: 14px; margin-left: 20px;}
+.tour-wrap .count {float: right; background-color: black; color: #fff; padding: 2px 10px; border-radius: 50%;}
+.cities {margin-top: 40px;}
+.city {float: left; width: 32%;}
+.city:nth-child(2) {margin: 0 2%;}
+/* .city-photo:hover {opacity: 0.6;} */
+.city-photo {overflow: hidden;}
+.city-photo:hover > img {transform: scale(1.1); opacity: 1;}
+.city-photo > img {transition: all 0.5s; opacity: 0.7;}
+.city-contents {background-color: #fff; padding: 16px;}
+.city-name {font-size: 18px; margin-bottom: 16px;}
+.tour-date {font-size: 16px; color: #999; font-weight: normal; margin-bottom: 16px;}
+.tour-desc {margin-bottom: 16px;}
+.bt-ticket {border: none; color: #fff; background-color: black; padding: 12px 16px;}
+.bt-ticket:hover {background-color: #ccc; color: #000;}
+
+
+
+
