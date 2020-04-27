@@ -13,3 +13,4 @@
 .list .content {width: 80%; float: right;}
 
 .input {padding: 6px; font-size: 16px;}
+.textarea {width: 100%; min-height: 300px; padding: 24px; font-size: 16px;}
