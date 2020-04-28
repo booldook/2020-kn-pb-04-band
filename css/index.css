@@ -59,3 +59,18 @@ body {height: 10000px;}
 	display: inline-block; margin-top: 12px;}
 .city > .conts > .bt-buy:hover {background-color: #ccc; color: #111; 
 	cursor: pointer;}
+
+
+/************ Contact *************/
+.infos {float: left; width: 50%;}	
+.forms {float: left; width: 50%;}
+.infos > .info {padding: 6px 0; font-size: 18px;}
+.infos > .info > span {margin-right: 20px;}
+.forms input {padding: 10px; margin-bottom: 4px; width: 100%;}
+.forms > div:nth-child(1) > input {width: 49%;}
+.forms > div:nth-child(1) > input:first-child {float: left;}
+.forms > div:nth-child(1) > input:last-child {float: right;}
+/* .forms > div:nth-child(2) > input {width: 100%;} */
+.forms > div:nth-child(3) {text-align: right;}
+.forms button {background-color: black; color: white; padding: 8px 16px; border: none; margin: 12px 0;}
+.forms button:hover {background-color: #ddd; color: #000;}
