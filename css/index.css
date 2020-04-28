@@ -1,8 +1,6 @@
 /********** 글꼴불러오기 **********/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
-body {height: 10000px;}
-
 /********** 공통사항 **********/
 .clearfix {clear: both;}
 .title {text-align: center; 
@@ -12,7 +10,7 @@ body {height: 10000px;}
 .wrapper {width: 100%; max-width: 790px; margin: 0 auto; padding: 100px 12px;}
 
 /********** .header **********/
-.header {background-color: black; color: white;}
+.header {background-color: black; color: white; width: 100%; position: fixed;}
 .nav-wrap {float: left;}
 .nav-wrap > div {float: left; padding: 14px 18px;}
 .nav-wrap > div:hover {cursor: pointer; background-color: #ccc; color: #111;}
@@ -79,3 +77,4 @@ body {height: 10000px;}
 .footer {text-align: center; padding: 80px 0; color: #999;}
 .footer > div {padding: 6px 0;}
 .footer .fab:hover {opacity: 0.7;}
+.footer a {color: #999;}
