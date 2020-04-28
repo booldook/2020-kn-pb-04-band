@@ -74,3 +74,8 @@ body {height: 10000px;}
 .forms > div:nth-child(3) {text-align: right;}
 .forms button {background-color: black; color: white; padding: 8px 16px; border: none; margin: 12px 0;}
 .forms button:hover {background-color: #ddd; color: #000;}
+
+/************ footer *************/
+.footer {text-align: center; padding: 80px 0; color: #999;}
+.footer > div {padding: 6px 0;}
+.footer .fab:hover {opacity: 0.7;}
