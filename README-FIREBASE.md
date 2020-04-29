@@ -24,4 +24,26 @@ firebase login
 - 1P: 사이트 주소 생성(신중하게)
 - 2P: 애널리틱스 사용으로 체크
 - 3P: 애널리틱스 사용계정(Default Account)로 선택, 혹시 국가선택이 뜨면 '대한민국'을 선택한다.
+
 ### vscode에서 할일
+1. 호스팅 할 프로젝트 폴더를 연다.
+2. 좀 전에 생성한 firebase 프로젝트와 본인의 프로젝트를 연동시켜야 한다. 그래서 다음과 같은 명령을 터미널창에서 수행한다.
+3. 아래의 설명처럼 호스팅을 세팅한다.
+
+![fb](./capture/fb-01.jpg)
+![fb](./capture/fb-02.jpg)
+![fb](./capture/fb-03.jpg)
+![fb](./capture/fb-04.jpg)
+![fb](./capture/fb-05.jpg)
+
+4. 생성된 public 폴더에 [html, css, img, js]폴더를 이동한다.
+5. 생성된 index.html 파일을 열고 아래의 내용으로 교체한다.
+
+```html
+<meta http-equiv="refresh" content="0;url=./html/index.html">
+```
+
+6. live server로 확인하여 이상이 없으면 아래의 명령을 통해 배포한다.
+```bash
+firebase deploy
+```
