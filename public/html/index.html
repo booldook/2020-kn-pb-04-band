@@ -6,8 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Band Website</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
 	<link rel="stylesheet" href="../css/base.css">
 	<link rel="stylesheet" href="../css/index.css">
+	<script src="../js/wow.min.js"></script>
 </head>
 
 <body>
@@ -25,7 +27,7 @@
 		</div>
 	</div><!-- header -->
 
-	<div class="main-wrap">
+	<div class="main-wrap wow animate__bounce">
 		<img src="../img/la.jpg" alt="la" class="main-img">
 		<div class="main-slogan">
 			<h2>Chicago</h2>
@@ -44,19 +46,19 @@
 			incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 			nisi ut aliquip ex ea commodo consequat.</p>
 		<div class="members clear">
-			<div class="member">
+			<div class="member wow bounce " data-wow-duration="3000">
 				<div class="name">Name</div>
 				<div class="photo">
 					<img src="../img/bandmember.jpg" alt="photo" class="img">
 				</div>
 			</div><!-- member -->
-			<div class="member">
+			<div class="member wow bounce" data-wow-duration="3000">
 				<div class="name">Name</div>
 				<div class="photo">
 					<img src="../img/bandmember.jpg" alt="photo" class="img">
 				</div>
 			</div><!-- member -->
-			<div class="member">
+			<div class="member wow bounce" data-wow-duration="3000">
 				<div class="name">Name</div>
 				<div class="photo">
 					<img src="../img/bandmember.jpg" alt="photo" class="img">
@@ -171,6 +173,9 @@
 			Powered by <a href="https://w3schools.com" target="_blank">w3.css</a>
 		</div>
 	</div><!-- footer -->
+	<script>
+		new WOW().init();
+	</script>
 </body>
 
 </html>
