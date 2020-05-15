@@ -72,21 +72,21 @@
 			<h1 class="title">TOUR DATES</h1>
 			<p class="slogan">Remember to book your tickets!</p>
 			<div class="lists">
-				<div class="list">
+				<div class="list wow fadeInLeft">
 					September
 					<span class="badge-soldout">Sold out</span>
 				</div><!-- list -->
-				<div class="list">
+				<div class="list wow fadeInLeft" data-wow-delay="0.3s">
 					October
 					<span class="badge-soldout">Sold out</span>
 				</div><!-- list -->
-				<div class="list">
+				<div class="list wow fadeInLeft" data-wow-delay="0.6s">
 					November
 					<span class="badge-counter">3</span>
 				</div><!-- list -->
 			</div><!-- lists -->
 			<div class="cities clear">
-				<div class="city">
+				<div class="city wow fadeInLeft">
 					<div class="photo">
 						<img src="../img/newyork.jpg" alt="new york" class="img">
 					</div>
@@ -97,7 +97,7 @@
 						<div class="bt-buy">Buy Tickets</div>
 					</div>
 				</div><!-- city -->
-				<div class="city">
+				<div class="city wow fadeInUp">
 					<div class="photo">
 						<img src="../img/paris.jpg" alt="paris" class="img">
 					</div>
@@ -108,7 +108,7 @@
 						<div class="bt-buy">Buy Tickets</div>
 					</div>
 				</div><!-- city -->
-				<div class="city">
+				<div class="city wow fadeInRight">
 					<div class="photo">
 						<img src="../img/sanfran.jpg" alt="sanfran" class="img">
 					</div>
@@ -124,10 +124,10 @@
 	</div><!-- tour-wrap -->
 
 	<div class="contact-wrap wrapper">
-		<h1 class="title">CONTACT</h1>
-		<p class="slogan">Fan? Drop a note!</p>
+		<h1 class="title wow bounceInUp">CONTACT</h1>
+		<p class="slogan wow bounceInUp">Fan? Drop a note!</p>
 		<div class="info-wrap clear">
-			<div class="infos">
+			<div class="infos wow fadeInLeft">
 				<div class="info">
 					<span class="fa fa-map-marker-alt"></span>
 					&nbsp;Chicago, US
@@ -141,7 +141,7 @@
 					Email: mail@mail.com
 				</div><!-- info -->
 			</div><!-- infos -->
-			<div class="forms">
+			<div class="forms wow fadeInRight">
 				<div class="clear">
 					<input type="text" name="name" placeholder="Name">
 					<input type="text" name="email" placeholder="Email">
@@ -162,19 +162,21 @@
 
 	<div class="footer">
 		<div>
-			<span class="fab fa-facebook pointer"></span>
-			<span class="fab fa-instagram pointer"></span>
-			<span class="fab fa-snapchat pointer"></span>
-			<span class="fab fa-pinterest pointer"></span>
-			<span class="fab fa-twitter pointer"></span>
-			<span class="fab fa-linkedin pointer"></span>
+			<span class="fab fa-facebook pointer wow fadeInUp" data-wow-offset="100" data-wow-delay="0"></span>
+			<span class="fab fa-instagram pointer wow fadeInUp" data-wow-offset="100" data-wow-delay="0.3s"></span>
+			<span class="fab fa-snapchat pointer wow fadeInUp" data-wow-offset="100" data-wow-delay="0.6s"></span>
+			<span class="fab fa-pinterest pointer wow fadeInUp" data-wow-offset="100" data-wow-delay="0.9s"></span>
+			<span class="fab fa-twitter pointer wow fadeInUp" data-wow-offset="100" data-wow-delay="1.2s"></span>
+			<span class="fab fa-linkedin pointer wow fadeInUp" data-wow-offset="100" data-wow-delay="1.5s"></span>
 		</div>
 		<div>
 			Powered by <a href="https://w3schools.com" target="_blank">w3.css</a>
 		</div>
 	</div><!-- footer -->
 	<script>
-		new WOW().init();
+		new WOW({
+			offset: 300
+		}).init();
 	</script>
 </body>
 
