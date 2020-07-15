@@ -1,0 +1,105 @@
+/********** 글꼴불러오기 **********/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+/********** 공통사항 **********/
+.clearfix {clear: both;}
+.title {text-align: center; 
+	font-family: 'Nunito', sans-serif; font-weight: 400; letter-spacing: 8px;}
+.slogan {color: #999; text-align: center; font-style: italic; padding: 24px 0;}
+.desc {color: #222; text-align: justify;}
+.wrapper {width: 100%; max-width: 790px; margin: 0 auto; padding: 100px 12px;}
+
+/********** .header **********/
+.header {background-color: black; color: white; width: 100%; position: fixed; z-index: 99;}
+.nav-wrap {float: left;}
+.nav-wrap > div {float: left; padding: 14px 18px;}
+.nav-wrap > div:hover {cursor: pointer; background-color: #ccc; color: #111;}
+.sch-wrap {float: right;}
+.sch-wrap .fa-bars {display: none;}
+.sch-wrap:hover {cursor: pointer; background-color: #f20;}
+.sch-wrap > div {padding: 16px 18px;}
+
+/********** .main-wrap **********/
+.main-wrap {text-align: center; position: relative;}
+/* .main-img {width: 1200px;} */
+/* .main-img {max-width: 1400px; width: 100%;} */
+.main-img {width: 100%;}
+.main-slogan {position: absolute; bottom: 40px; width: 100%; color: #fff;}
+.main-slogan > h2 {font-size: 32px; font-weight: normal; padding: 16px;}
+.main-slogan > h3 {font-size: 18px;}
+
+/********** .band-wrap **********/
+.member {width: 33.3333%; float: left; padding: 40px;}
+.member > .name {text-align: center; padding: 16px;}
+/* .member > .photo > img {} */
+.member img {border-radius: 6px;}
+
+/********** .tour-wrap **********/
+.tour-wrap {background-color: black;}
+.tour-wrap .title {color: #fff;}
+.tour-wrap .lists {background-color: #f8f8f8; border: 1px solid #999;}
+/*
+.tour-wrap .list {padding: 12px; border-bottom: 1px solid #999;}
+.tour-wrap .list:last-child {border-bottom: none;}
+*/
+.tour-wrap .list {padding: 12px;}
+.tour-wrap .list:not(:last-child) {border-bottom: 1px solid #999;}
+.badge-soldout {background-color: #f20; color: #fff; padding: 2px 8px; 
+	font-size: 14px; margin-left: 30px;}
+.badge-counter {float: right; background-color: #111; color: #fff; 
+	padding: 2px 8px; border-radius: 50%;}
+
+.cities {margin-top: 30px;}
+.city {float: left; width: 32%;}
+.city:nth-child(2) {margin: 0 2%;}	
+.city > .conts {background-color: #fff; padding: 16px;}
+.city > .photo > img:hover {opacity: 0.6;}
+.city > .conts > h3 {padding: 6px 0;}
+.city > .conts > p {padding: 6px 0; color: #999;}
+.city > .conts > .summary {padding: 6px 0;}
+.city > .conts > .bt-buy {padding: 12px; background-color: #111; color: #fff;
+	display: inline-block; margin-top: 12px;}
+.city > .conts > .bt-buy:hover {background-color: #ccc; color: #111; 
+	cursor: pointer;}
+
+
+/************ Contact *************/
+.infos {float: left; width: 50%;}	
+.forms {float: left; width: 50%;}
+.infos > .info {padding: 6px 0; font-size: 18px;}
+.infos > .info > span {margin-right: 20px;}
+.forms input {padding: 10px; margin-bottom: 4px; width: 100%;}
+.forms > div:nth-child(1) > input {width: 49%;}
+.forms > div:nth-child(1) > input:first-child {float: left;}
+.forms > div:nth-child(1) > input:last-child {float: right;}
+/* .forms > div:nth-child(2) > input {width: 100%;} */
+.forms > div:nth-child(3) {text-align: right;}
+.forms button {background-color: black; color: white; padding: 8px 16px; border: none; margin: 12px 0;}
+.forms button:hover {background-color: #ddd; color: #000;}
+
+/************ footer *************/
+.footer {text-align: center; padding: 80px 0; color: #999;}
+.footer > div {padding: 6px 0;}
+.footer .fab:hover {opacity: 0.7;}
+.footer a {color: #999;}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+	.sch-wrap .fa-search {display: none;}
+	.sch-wrap .fa-bars {display: block;}
+	.nav-wrap > div:not(:first-child) {display: none;}
+	.main-slogan {display: none;}
+	.member {width: 60%; margin: 0 20%;}
+	.city {width: 100%; margin-bottom: 30px;}
+	.city:nth-child(2) {margin: 0; margin-bottom: 30px;}
+	.infos {width: 100%;}	
+	.forms {width: 100%;}
+	.forms > div:nth-child(1) > input {width: 100%;}
+}
+
+@media screen and (max-width: 575px) {
+	.member {width: 80%; margin: 0 10%;}
+}
