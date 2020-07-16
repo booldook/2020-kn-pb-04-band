@@ -18,7 +18,7 @@
 .sch-wrap {float: right;}
 .sch-wrap .fa-bars {display: none;}
 .sch-wrap:hover {cursor: pointer; background-color: #f20;}
-.sch-wrap > div {padding: 16px 18px;}
+.sch-wrap > div {padding: 20px;}
 
 /********** .main-wrap **********/
 .main-wrap {text-align: center; position: relative;}
